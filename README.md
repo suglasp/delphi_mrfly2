@@ -7,6 +7,9 @@ The code is public under license of GNU 3.
 It still runs on Windows 10 and 11, only the intro screen is slightly off a few pixel.\
 The rest of the game, works as it should.
 
+![Mr. Fly 2 screenshot](./screen1.png)
+
+
 #### This game is a mini-game.
 Story : A Fly with a helmet you must try to kill before it reaches the other side of the screen.\
 Idea : Came about when a Fly flew into my windshield of the car :)\
