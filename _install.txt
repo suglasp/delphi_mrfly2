@@ -1,0 +1,13 @@
+===============================
+Fly 2 - Slaughter in the rain
+By Suglasp (Pieter De Ridder)
+how to install?
+Site: https://github.com/suglasp
+===============================
+
+1) Create a folder on a harddrive (eg: "C:\Fly2\").
+2) download winzip
+3) Unzip fly2.zip into that folder (include sub directory's !!!!)
+4) ready to play!
+
+(Run first the fly2cfger.exe)

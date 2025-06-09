@@ -1,0 +1,22 @@
+TO DO - FLY2
+
+V1.0.3.0
+( ) clip mouse inside screen (clipcursor(PTrect)) [FAILED!]
+( ) slow down mouse speed (?)
+( ) fix cloud images (transparency)
+( ) stayontop (setup unit)
+( ) more healths to spawn
+( ) add ghost mode
+( ) add blending unit (for ghost mode)
+( ) If cfgdata.sound ... > add into play proc of unit winsound_core & remove in all other units
+( ) update version
+
+V1.0.2.9
+(x) Fix some textures transparency
+(x) Fix score when winning
+(x) Time of spawnpacks decrease in easy mode
+(x) update version
+
+V1.0.2.8
+(x) add healthpacks
+(x) update version

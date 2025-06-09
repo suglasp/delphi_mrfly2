@@ -1,0 +1,29 @@
+SetBkMode(DrawMe.Canvas.Handle, TRANSPARENT);
+         DrawMe.Canvas.Font := Font;
+TextRect:=ClientRect;//your TGraphicControl rect
+DrawText(DrawMe.Canvas.Handle,Pchar(YourText),Length(YourText),TextRect,DT_WORDBREAK);  
+
+
+
+
+ Canvas.Brush.Style := bsClear;
+before drawing the text with DrawText.  
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  OldBkMode : integer;
+begin
+  Image1.Picture.Bitmap.Canvas.Font.Color := clBlue;
+  OldBkMode := SetBkMode(Image1.Picture.Bitmap.Canvas.Handle,
+                         TRANSPARENT);
+  Image1.Picture.Bitmap.Canvas.TextOut(10, 10, 'Hello');
+  SetBkMode(Image1.Picture.Bitmap.Canvas.Handle,
+            OldBkMode);
+end;
+
+********************************************************************
+*                                                                  * 
+* SetBkMode(Canvas.Handle, 1); //Set transparent                   *
+* Form1.canvas.textout(X, Y, 'A message'); //draw transparent text *
+********************************************************************
